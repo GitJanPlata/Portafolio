@@ -125,7 +125,6 @@ body {
 
 .cta:hover{
 background-color: #1ab861;
-border-: #ffffffb0;
 border-radius: 16px;
 }
 
@@ -294,6 +293,7 @@ border-radius: 16px;
 
 .trabajos_cta:hover {
  background-color: #f6f8fa42 ;
+ border-radius: 16px;
 }
 
 
