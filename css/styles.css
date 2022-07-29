@@ -340,10 +340,11 @@ border-radius: 16px;
   max-width: 700px;
 }
 .testimony_course{
-  background-color: royalblue;
+  background-color: #249255;
   color: #fff;
   display: inline-block;
   padding: 5px;
+  border-radius: 8px;
 }
 
 .testimony_arrow{
