@@ -181,6 +181,7 @@ border-radius: 16px;
   grid-template-columns: 1fr 1fr;
   gap: 1em 1em;
   align-items: center;
+  padding: 20px;
 }
 
 .knowledge_picture {
@@ -296,6 +297,68 @@ border-radius: 16px;
  border-radius: 16px;
 }
 
+/*testimony*/
+
+.testimony{
+    background-color: #e5e5f7;
+}
+
+.testimony_container{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  gap: 1em;
+  align-items: center;
+}
+
+.testimony_body{
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.testimony_body--show{
+  pointer-events: unset;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.testimony_img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.testimony_texts{
+  max-width: 700px;
+}
+.testimony_course{
+  background-color: royalblue;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+}
+
+.testimony_arrow{
+  width: 90%;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 /* footer */
 
@@ -364,7 +427,12 @@ border-radius: 16px;
   border: none;
   font-size: 1rem;
   color: #fff;
-  border-radius: 6px;
+  border-radius: 32px;
+}
+
+.footer_submit:hover{
+  background-color: #1ab861;
+  border-radius: 16px;
 }
 
 .footer_copy {
